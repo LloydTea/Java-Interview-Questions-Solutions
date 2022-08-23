@@ -62,7 +62,7 @@ These exercises are based on the variables exercises, so you may start from thos
 I am a high-performing, diligent front-end developer, consistently ensuring the development of high-end responsive websites that look good on every device and also cater to the core values of every client.
 
 ##
-          _      _      ______     _______ _______ ______          
+      _      _      ______     _______ _______ ______          
      | |    | |    / __ \ \   / /  __ \__   __|  ____|   /\    
      | |    | |   | |  | \ \_/ /| |  | | | |  | |__     /  \   
      | |    | |   | |  | |\   / | |  | | | |  |  __|   / /\ \  
