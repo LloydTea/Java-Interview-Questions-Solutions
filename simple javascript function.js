@@ -87,3 +87,34 @@ const fahrenheitToCelsius = (temp_fahren) =>{
 }
 celsiusToFahrenheit(30)
 fahrenheitToCelsius(86)
+
+/*
+ * @param {string} s
+ * @return {number}
+ */
+ const romanToInt = (romfigs) =>{
+    const romtoarr = romfigs.split("");
+    const rom = ['I', 'V', 'X', 'L', 'C', 'D', 'M'];
+    const rom_num = [1, 5, 10, 50, 100, 500, 1000];
+    var s_num = 0;
+    let i = 0;
+    while ( i < romtoarr.length){
+       
+        var rom_index = rom.indexOf(romtoarr[i])
+        var rom_index2 = rom.indexOf(romtoarr[i+1])
+        y = rom_num[rom_index]
+        x = rom_num[rom_index2]
+        if(y < x){
+            var rom_index2 = rom.indexOf(romtoarr[i+1])
+            s_num += (x - y)
+            i += 2
+        }else{
+            s_num += y
+            i++
+        }
+    }
+    return s_num
+};
+romanToInt("III")
+romanToInt("LVIII")
+romanToInt("MCMXCIV")

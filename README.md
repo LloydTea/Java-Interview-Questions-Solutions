@@ -72,6 +72,17 @@ These exercises are based on the variables exercises, so you may start from thos
 
   Call that function three times, passing in different values each time.
 
+- ### Converting Your Roman To Integer
+
+  Converting Roman Numbers To Regular Number
+
+  Create a function called romanToInt:
+
+        - Create 2 Arrays For Both Romain Unique Figures And Their Intergers
+        - Create a while loop to add number or reduce number when
+
+  Call that function three times, passing in different roman values each time.
+
 ## Authors
 
 - [@LloydTea](https://github.com/LloydTea)
